@@ -1,0 +1,14 @@
+name = "dalesackrider-com"
+compatibility_date = "2026-09-08"
+pages_build_output_dir = "dist"
+
+[observability]
+enabled = true
+
+[[routes]]
+pattern = "dalesackrider.com/*"
+zone_name = "dalesackrider.com"
+
+[[routes]]
+pattern = "www.dalesackrider.com/*"
+zone_name = "dalesackrider.com"

@@ -32,7 +32,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://dalesack
 
     <!-- Favicon & Feed -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title="Dale Sackrider" href={new URL('rss.xml', Astro.site)} />
+    <link rel="alternate" type="application/rss+xml" title="Dale Sackrider" href={new URL('rss.xml', Astro.site || 'https://dalesackrider.com')} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Open Graph / Social -->
