@@ -113,14 +113,18 @@
   color: var(--text-muted);
 }
 
-.prose-content a {
+.prose-content p a,
+.prose-content li a,
+.prose-content blockquote a {
   color: var(--accent);
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: color 0.15s ease;
 }
 
-.prose-content a:hover {
+.prose-content p a:hover,
+.prose-content li a:hover,
+.prose-content blockquote a:hover {
   color: var(--accent-hover);
 }
 
