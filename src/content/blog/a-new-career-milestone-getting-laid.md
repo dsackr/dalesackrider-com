@@ -2,7 +2,7 @@
 title: "A New Career Milestone: Getting Laid Off"
 description: "This is a difficult post to write."
 pubDate: "2023-02-15"
-draft: true
+draft: false
 ---
 
 This is a difficult post to write. Since I was 15 years old, I’ve been employed. I’ve had big milestones in my career – my first career job, making six figures, first time as a people manager, first time managing managers, and well… first time getting laid off.
