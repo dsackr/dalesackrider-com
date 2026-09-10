@@ -82,21 +82,14 @@ tags: ["leadership", "cloud", "systems"]
 ### 1. Draft the Post
 Create `/Users/skippy/repos/dalesackrider-com/src/content/blog/<slug>.md` with frontmatter and Markdown body.
 
-### 2. Verify Build Locally
-Run the Astro build to ensure TypeScript and content collections validate without error:
+### 2. (Optional) Preview or Verify Build Locally
 ```bash
 cd /Users/skippy/repos/dalesackrider-com
 npm run build
 ```
 
-### 3. Deploy Live to Cloudflare
-Deploy the updated assets to Cloudflare Edge:
-```bash
-cd /Users/skippy/repos/dalesackrider-com
-npx wrangler deploy
-```
-
-### 4. Commit and Push to GitHub
+### 3. Commit and Push to GitHub (Automated CI/CD)
+Pushing to `main` automatically triggers GitHub Actions to build and deploy to Cloudflare Edge:
 ```bash
 cd /Users/skippy/repos/dalesackrider-com
 git add .
